@@ -1,0 +1,21 @@
+COSC 435 - Group Project
+
+Elizabeth Miller, Gerardo Vargas-Hernandez, & Lindsay King
+
+Connect Four
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Branches:
+We each used our own branch to work on our individual work for the project. Once everything was completed, we merged the branches together. When merging Lindsay and Ella's branches, we deleted them afterwards to avoid confusion. We kept Gerardo's branch since that's where the functionality of the game came from. We didn't want to lose anything if the merge didn't go smoothly.
+
+Organization:
+Any function not related to the board itself, is located in the Screen.kt file. The navigation objects are listed in the ScreenMenu.kt file. All board functionality/components are in either the board.kt, chip.kt, or logic.kt files. 
+
+Functionality:
+The local play works entirely, checks for all 4 types of wins and prompts you when the game ends. The database holds the primary (player 1) player's username and the number of wins and losses they have. The username displays on both the local play screen and the online screen. Though we were unable to get the online play to work properly.
+
+Distribution of Work:
+Ella - App Theme, Navigation, Home Screen, Settings Screen, & Initial Database Setup
+Gerardo - Board & Chip Creation, Game Functionality, & Unit Testing
+Lindsay - Game Board Screens, Notifications, & Merging
